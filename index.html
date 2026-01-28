@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/reset.css">  
+</head>
+<body>
+    
+    <nav class="navbar">
+        <picture class="logo">
+            <img src="img/Portrait of a Young Man in Ghibli Style 1.png" alt="Portrait Natty">
+        </picture>
+
+        <div class="burger-icon" id="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+           
+        <ul id="navLinks">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#Projets">Projet</a></li>
+            <li><a href="#A-propos-de-moi">A propos</a></li>
+            <li><a href="#Compétences">Compétences</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="accueil" class="accueil">
+        <div class="center">
+            <p>Bonjour, je suis</p>
+            <h1>Satan Natty</h1>
+            <p>Développeur, j'apprend le frontend et je me forme activement au développement backend pour devenir un développeur full stack complet.</p>
+
+            <div class="btn">
+                <button onclick="document.getElementById('Projets').scrollIntoView({behavior: 'smooth'})">Voir mes projets</button>
+                <button onclick="document.getElementById('Contact').scrollIntoView({behavior: 'smooth'})">Me contacter</button>
+            </div>
+        </div>
+    
+        <div class="iconContact">
+            <a href="https://github.com/natty-jpg/code-Natty" target="_blank">
+                <img src="img/Capture décran 2025-12-24 182348.png" alt="GitHub">
+            </a>
+            <a href="www.linkedin.com/in/natty-satan-902345238" target="_blank">
+                <img src="img/Capture décran 2025-12-24 182443.png" alt="Icône 2">
+            </a>
+            <a href="cv Natty  (1).pdf" target="_blank">
+                <img src="img/Capture décran 2025-12-24 182525.png" alt="Icône 3">
+            </a>
+        </div>
+
+        
+    </div>
+
+    <div id="A-propos-de-moi" class="propos">
+        <h1>A propos de moi</h1>
+
+        <div class="groupe">
+            <div>
+                <picture class="radius">
+                    <img src="img/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="image">
+                </picture>
+            </div>
+
+            <div>
+                <div class="moi">
+                    <p>Actuellement en formation de Développeur Web, j'ai commencé par acquérir les bases de l'intégration et du développement frontend pour créer des interfaces modernes. Mon ambition est aujourd'hui d'évoluer vers un profil Full Stack. C'est pourquoi j'élargis activement mes compétences côté backend (Node.js, bases de données) afin de comprendre et maîtriser l'ensemble du cycle de vie d'une application...</p>
+
+                    <p>Mes premiers projets m'ont sensibilisé à l'importance d'écrire un code propre et maintenable. Désireux d'aller plus loin que l'interface visuelle, je me forme activement aux technologies serveur comme Node.js et à la gestion de bases de données. Mon but est clair : maîtriser l'ensemble du cycle de développement pour devenir autonome sur des projets complets.</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-item">
+                        
+                        <h2>En Apprentissage</h2>
+                        <p>Développement Frontend</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <picture></picture>
+                        <h2>En Apprentissage</h2>
+                        <p>Formation active sur les technologies backend</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <picture></picture>
+                        <h2>Passionné</h2>
+                        <p>Toujours à jour sur les nouvelles technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Compétences" class="compet">
+        <h1>Compétences</h1>
+        
+        <div class="skills">
+            <div class="comp">
+                <img src="img\jackson-sophat-_t-l5FFH8VA-unsplash.jpg" alt="Frontend">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="comp">
+                <img src="img\sarah-b-wpAjO6H_65c-unsplash.jpg" alt="Design">
+                <h3>Design</h3>
+                <p>Responsive Design, UI/UX</p>
+            </div>
+
+            <div class="comp">
+                <img src="img\kevin-ku-w7ZyuGYNpRQ-unsplash.jpg" alt="Tools">
+                <h3>Outils</h3>
+                <p>Git, VS Code, Figma</p>
+            </div>
+        </div>
+
+        <div class="langue">
+            <div class="lang-item">JavaScript</div>
+            <div class="lang-item">HTML/CSS</div>
+            <div class="lang-item">Tailwind</div>
+            <div class="lang-item">Git</div>
+            <div class="lang-item">linux</div>
+            <div class="lang-item">React</div>
+            <div class="lang-item">Cisco</div>
+            <div class="lang-item">windows server</div>
+            <div class="lang-item">WordPress</div>
+            <div class="lang-item">Figma</div>
+
+        </div>
+    </div>
+
+    <div id="Projets" class="MesProjets">
+        <h1>Mes Projets</h1>
+        <p class="sous">Mes réalisations frontend et Système réseaux</p>
+
+        <div class="mesProjet">
+            <div class="projet">
+                <img src="img\Capture d’écran 2026-01-12 181459.png" alt="Projet 1">
+                <div class="projet-info">
+                    <h3>Intranet ODD</h3>
+                    <p>Création d'un intranet pour la commune la ville Blois</p>
+                   <a class="lien" href=">https://odd.nsatan.dev-campus.fr/"> lien ici:</a>
+                    <div class="projet-tech">WordPress figma</div>
+                </div>
+            </div>
+
+            <div class="projet">
+                <img src="img/Portrait of a Young Man in Ghibli Style 1.png" alt="Projet 2">
+                <div class="projet-info">
+                    <h3>Portfolio Créatif</h3>
+                    <p>Portfolio moderne avec animations et effets visuels</p>
+                    <div class="projet-tech">HTML • CSS • JavaScript</div>
+                </div>
+            </div>
+
+            <div class="projet">
+                <img src="img\chirpstack_dashboard-99c6c33c5773e891debc5732ba13ff10.png" alt="Projet 3">
+                <div class="projet-info">
+                    <h3>Application To-Do</h3>
+                    <p>une plateforme open-source de réseau LoRaWAN pour l'Internet des objets (IoT)  Cette plateforme fournit des fonctionnalités pour gérer les objets connectés, collecter des données à partir de ces devices, les stocker dans une base de données et les exposer à des applications tierces.</p>
+                <div class="projet-tech">linux • virtualbox </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact" class="contact-section">
+        <h1>Contact</h1>
+        <p class="contact-intro">N'hésitez pas à me contacter pour toute opportunité ou collaboration</p>
+        
+        <div class="contact-container">
+            <div class="contact-card">
+                <div class="contact-icon"></div>
+                <h3>Email</h3>
+                <p>natty.satanpro@gmail.com</p>
+                <a href="mailto:natty.satanpro@gmail.com" class="contact-link">M'envoyer un email</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon"></div>
+                <h3>Téléphone</h3>
+                <p>+33 6 61 09 15 61</p>
+                <a href="tel:+33661091561" class="contact-link">M'appeler</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon"></div>
+                <h3>Localisation</h3>
+                <p>Blois, France</p>
+                <p class="location-detail">Centre-Val de Loire</p>
+            </div>
+
+            <div class="contact-card disponibilite">
+                <div class="contact-icon"></div>
+                <h3>Disponibilité</h3>
+                <p>Je suis actuellement en formation frontend et backend à la recherche d'une alternance. Ouvert aux stages, missions freelance et projets collaboratifs.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> 2025 Satan Natty - Tous droits réservés</p>
+        <div class="footer-links">
+            <a href="https://github.com/natty-jpg/code-Natty" target="_blank">GitHub</a>
+            <a href="cv Natty  (1).pdf" target="_blank">CV</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
